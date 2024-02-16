@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+
+.mural-info {
+    margin-top: 8rem;
+}
+
+
+@media screen and (min-width: 900px) {
+    .search-rapi {
+        max-width: calc(100vw - 500px);
+    }  
+}
+
+
+
+.card-category {
+    width: 348px;
+    height: 215px;
+}
+
+.card-category img {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.card-category p {
+    padding: 10px;
+    bottom: -40px;
+}
+
+.card-category:hover {
+    transform: scale(1.2);
+}
+
+.card-category {
+    transition: transform 0.5s ease-in-out;
+}
